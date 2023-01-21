@@ -76,7 +76,7 @@ h1, h2 {
 #hero-image {
     height: 500px;
     width: 100%;
-    background: url('../assets/images/Family\ of\ love\ \(15\).png') repeat center center;
+    background: url('../images/Family\ of\ love\ \(15\).png') repeat center center;
 
     /* animates zoom effect on loading page */
     animation-name: hero-zoom;
@@ -192,7 +192,7 @@ hr {
 }
 
 #circle-cover-bg {
-    background: url('../assets/images/Family\ of\ love\ \(14\).png') no-repeat center center;
+    background: url('../images/Family\ of\ love\ \(14\).png') no-repeat center center;
     height: 100%;
     border-radius: 50%;
     /* animation-name: circle 4s infinite;
@@ -204,7 +204,7 @@ hr {
 /* event times */
 
 #times {
-    background-image: url('../assets/images/times-background.webp');
+    background-image: url('../images/times-background.webp');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;

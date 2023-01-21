@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Family of Love">
+        <meta name="keywords" content="family_of_love">
+    
+        <link rel="stylesheet" href="./assets/css/sign.css">
+        <title>Family of Love</title>
+    </head>
+<body>
+
+    <header>
+        <a href="index.html">
+            <h1 id="logo">Family of Love</h1>
+        </a>
+        <nav>
+            <ul id="menu">
+                <li>
+                    <a href="sign.html">Sign Up</a>
+                </li>
+               
+                <li>
+                    <a href="index.html" class="active">Home</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+        <!-- Masthead-->
+    
+
+        <div class="form-holder">
+            <h1>Get in Touch</h1>
+
+            <hr>
+    
+            <!-- <fieldset> -->
+                <!-- <legend> Waiting to hear from you</legend> -->
+
+                <form action="">
+                    <label for="title">Title</label> <br>
+                    <select name="title" id="title">
+                    <option value="" selected disabled>...Choose Your Title</option>
+                    <option value="" disabled>-------------------</option>
+                    <option value="mr">Mr.</option>
+                    <option value="ms">Ms.</option>
+                    <option value="mrs">Mrs.</option>
+                    <option value="other">Other</option>
+                    </select> 
+                    <br>
+                    <label for="fname">First Name <span>*</span> </label>
+                    <input type="text" id="fname" name="fname" placeholder="Please enter your first name" required> <br>
+
+                    <label for="lname">Last Name</label>
+                    <input type="text" name="lname" id="lname" placeholder="Please enter your last name"> <br>
+
+                    <label for="email">E-mail <span>*</span></label>
+                    <input type="email" id="email" name="email" placeholder="xyz@gmail.com" required> <br>
+
+                    <label for="phone">Phone</label>
+                    <input type="number" name="phone" id="phone" min-length="5" max-length="15"> <br>
+
+                    
+                        <div class="gender">
+                            <label for="gender">Gender</label> <br>
+                    <div><Span>Male</Span>  <input type="radio" name="gender" id="gender"></div> 
+                      <div><span>Female</span> <input type="radio" name="gender" id="gender"></div> 
+                       <div><span>Other</span><input type="radio" name="gender" id="gender"></div> 
+                        </div>
+                    
+
+                    <label for="about">How can I be of help? <span>*</span></label> <br>
+                    <textarea name="" id="" cols="60" rows="10" required placeholder="...Enter your message here"></textarea> <br>
+
+                   <button type="submit">Submit</button>
+
+                   <button type="reset">Reset</button>
+                </form>
+            <!-- </fieldset> -->
+
+        </div>
+
+
+     
+
+    <!-- font awesome script  -->
+    <script src="https://kit.fontawesome.com/c7dbda0798.js" crossorigin="anonymous"></script>
+
+    </div>
+</body>
+</html>
